@@ -3140,3 +3140,227 @@ arm-none-eabi-size  Lab4.elf
   12352	     24	   1792	  14168	   3758	Lab4.elf
 Finished building: default.size.stdout
  
+15:01:35 **** Incremental Build of configuration Debug for project Lab4 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab4.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab4.elf
+ 
+arm-none-eabi-size  Lab4.elf 
+arm-none-eabi-objdump -h -S Lab4.elf  > "Lab4.list"
+   text	   data	    bss	    dec	    hex	filename
+  12256	     20	   1788	  14064	   36f0	Lab4.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab4.list
+ 
+15:03:14 **** Incremental Build of configuration Debug for project Lab4 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab4.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab4.elf
+ 
+arm-none-eabi-size  Lab4.elf 
+arm-none-eabi-objdump -h -S Lab4.elf  > "Lab4.list"
+   text	   data	    bss	    dec	    hex	filename
+  12376	     20	   1788	  14184	   3768	Lab4.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab4.list
+ 
+15:24:52 **** Incremental Build of configuration Debug for project Lab4 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab4.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab4.elf
+ 
+arm-none-eabi-size  Lab4.elf 
+arm-none-eabi-objdump -h -S Lab4.elf  > "Lab4.list"
+   text	   data	    bss	    dec	    hex	filename
+  12240	     20	   1788	  14048	   36e0	Lab4.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab4.list
+ 
+15:25:51 **** Incremental Build of configuration Debug for project Lab4 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab4.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab4.elf
+ 
+arm-none-eabi-size  Lab4.elf 
+arm-none-eabi-objdump -h -S Lab4.elf  > "Lab4.list"
+   text	   data	    bss	    dec	    hex	filename
+  12240	     20	   1788	  14048	   36e0	Lab4.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab4.list
+ 
+15:26:22 **** Incremental Build of configuration Debug for project Lab4 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab4.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab4.elf
+ 
+arm-none-eabi-size  Lab4.elf 
+arm-none-eabi-objdump -h -S Lab4.elf  > "Lab4.list"
+   text	   data	    bss	    dec	    hex	filename
+  12244	     20	   1788	  14052	   36e4	Lab4.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab4.list
+ 
+15:26:54 **** Incremental Build of configuration Debug for project Lab4 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab4.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab4.elf
+ 
+arm-none-eabi-size  Lab4.elf 
+arm-none-eabi-objdump -h -S Lab4.elf  > "Lab4.list"
+   text	   data	    bss	    dec	    hex	filename
+  12240	     20	   1788	  14048	   36e0	Lab4.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab4.list
+ 
+15:36:07 **** Incremental Build of configuration Debug for project Lab4 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab4.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab4.elf
+ 
+arm-none-eabi-size  Lab4.elf 
+arm-none-eabi-objdump -h -S Lab4.elf  > "Lab4.list"
+   text	   data	    bss	    dec	    hex	filename
+  12240	     20	   1788	  14048	   36e0	Lab4.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab4.list
+ 
+15:39:14 **** Incremental Build of configuration Debug for project Lab4 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab4.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab4.elf
+ 
+arm-none-eabi-size  Lab4.elf 
+arm-none-eabi-objdump -h -S Lab4.elf  > "Lab4.list"
+   text	   data	    bss	    dec	    hex	filename
+  12240	     20	   1788	  14048	   36e0	Lab4.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab4.list
+ 
+15:44:34 **** Incremental Build of configuration Debug for project Lab4 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab4.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab4.elf
+ 
+arm-none-eabi-size  Lab4.elf 
+arm-none-eabi-objdump -h -S Lab4.elf  > "Lab4.list"
+   text	   data	    bss	    dec	    hex	filename
+  12240	     20	   1788	  14048	   36e0	Lab4.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab4.list
+ 
+15:45:01 **** Incremental Build of configuration Debug for project Lab4 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab4.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab4.elf
+ 
+arm-none-eabi-size  Lab4.elf 
+arm-none-eabi-objdump -h -S Lab4.elf  > "Lab4.list"
+   text	   data	    bss	    dec	    hex	filename
+  12240	     20	   1788	  14048	   36e0	Lab4.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab4.list
+ 
+15:45:33 **** Incremental Build of configuration Debug for project Lab4 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab4.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab4.elf
+ 
+arm-none-eabi-size  Lab4.elf 
+arm-none-eabi-objdump -h -S Lab4.elf  > "Lab4.list"
+   text	   data	    bss	    dec	    hex	filename
+  12240	     20	   1788	  14048	   36e0	Lab4.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab4.list
+ 
+15:48:18 **** Incremental Build of configuration Debug for project Lab4 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab4.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab4.elf
+ 
+arm-none-eabi-size  Lab4.elf 
+arm-none-eabi-objdump -h -S Lab4.elf  > "Lab4.list"
+   text	   data	    bss	    dec	    hex	filename
+  12240	     20	   1788	  14048	   36e0	Lab4.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab4.list
+ 
+15:51:27 **** Incremental Build of configuration Debug for project Lab4 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab4.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab4.elf
+ 
+arm-none-eabi-size  Lab4.elf 
+arm-none-eabi-objdump -h -S Lab4.elf  > "Lab4.list"
+   text	   data	    bss	    dec	    hex	filename
+  12248	     20	   1788	  14056	   36e8	Lab4.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab4.list
+ 
+15:53:04 **** Incremental Build of configuration Debug for project Lab4 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab4.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab4.elf
+ 
+arm-none-eabi-size  Lab4.elf 
+arm-none-eabi-objdump -h -S Lab4.elf  > "Lab4.list"
+   text	   data	    bss	    dec	    hex	filename
+  12240	     20	   1788	  14048	   36e0	Lab4.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab4.list
+ 
+15:56:56 **** Incremental Build of configuration Debug for project Lab4 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab4.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab4.elf
+ 
+arm-none-eabi-size  Lab4.elf 
+arm-none-eabi-objdump -h -S Lab4.elf  > "Lab4.list"
+   text	   data	    bss	    dec	    hex	filename
+  12252	     20	   1788	  14060	   36ec	Lab4.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab4.list
+ 
+15:58:33 **** Incremental Build of configuration Debug for project Lab4 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Lab4.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab4.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab4.elf
+ 
+arm-none-eabi-size  Lab4.elf 
+arm-none-eabi-objdump -h -S Lab4.elf  > "Lab4.list"
+   text	   data	    bss	    dec	    hex	filename
+  12252	     20	   1788	  14060	   36ec	Lab4.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab4.list
+ 
