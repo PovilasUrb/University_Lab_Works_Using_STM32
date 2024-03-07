@@ -1,5 +1,176 @@
-2024-03-06 14:33:34,251 [INFO] Activator:176 - 
-
-
-2024-03-06 14:33:34,251 [INFO] Activator:177 - !SESSION log4j initialized
-2024-03-06 14:33:39,404 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2024-03-07 09:08:45,550 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,450x257,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-07 09:11:05,971 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,450x188,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-07 09:11:07,510 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-07 09:11:08,393 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-07 09:11:14,434 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-07 09:11:19,046 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-07 09:12:42,777 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-07 09:12:43,973 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-07 09:12:44,028 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-07 09:12:47,838 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-07 09:12:47,893 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-07 09:13:02,557 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-07 09:13:02,680 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-07 09:13:07,583 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-07 09:13:09,113 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-07 09:15:07,463 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-07 09:15:41,267 [INFO] ParamManager:896 - [Generic UI] PropertyChangeEvent: TAB_STATUS_CHANGED , "dont care", "never mind"
+2024-03-07 09:15:41,291 [INFO] ParamManager:896 - [Generic UI] PropertyChangeEvent: TAB_STATUS_CHANGED , "dont care", "never mind"
+2024-03-07 09:15:41,298 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-07 09:15:41,328 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-07 09:15:41,328 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-07 09:15:41,328 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-07 09:15:41,329 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-07 09:15:41,329 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-07 09:15:41,329 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-07 09:15:41,329 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-07 09:15:41,329 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-07 09:15:41,329 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-07 09:15:41,329 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-07 09:15:41,329 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-07 09:15:41,329 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-07 09:15:41,329 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-07 09:15:41,330 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-07 09:15:41,343 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-07 09:15:41,483 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-07 09:15:41,565 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-07 09:15:41,611 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-07 09:15:41,611 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-07 09:15:41,611 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-07 09:15:41,611 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-07 09:15:41,612 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-07 09:15:41,612 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-07 09:15:41,612 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-07 09:15:41,612 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-07 09:15:41,612 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-07 09:15:41,612 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-07 09:15:41,612 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-07 09:15:41,612 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-07 09:15:41,612 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-07 09:15:41,612 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-07 09:15:41,631 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-07 09:15:41,657 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-07 09:15:41,657 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-07 09:15:41,657 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-07 09:15:41,657 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-07 09:15:41,658 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-07 09:15:41,658 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-07 09:15:41,658 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-07 09:15:41,658 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-07 09:15:41,658 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-07 09:15:41,658 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-07 09:15:41,658 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-07 09:15:41,658 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-07 09:15:41,658 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-07 09:15:41,658 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-07 09:15:41,677 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-03-07 09:17:03,004 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 474804768 Bytes (832569344)
+2024-03-07 09:17:03,124 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 502067744 Bytes (832569344)
+2024-03-07 09:17:03,315 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2024-03-07 09:17:03,316 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2024-03-07 09:17:03,316 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-03-07 09:17:03,316 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-03-07 09:17:03,316 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-03-07 09:17:03,316 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-03-07 09:17:03,317 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.14.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037\\db\
+2024-03-07 09:17:03,484 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\MXTmpFiles\license.tmp_save
+2024-03-07 09:17:03,554 [INFO] CodeEngine:279 - Generated code: C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\MXTmpFiles\license.tmp
+2024-03-07 09:17:03,569 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\MXTmpFiles\gpio.tmp_save
+2024-03-07 09:17:03,648 [INFO] CodeEngine:279 - Generated code: C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\MXTmpFiles\gpio.tmp
+2024-03-07 09:17:03,715 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\Core\Src\stm32f4xx_it.c_save
+2024-03-07 09:17:03,851 [INFO] CodeEngine:279 - Generated code: C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\Core\Src\stm32f4xx_it.c
+2024-03-07 09:17:03,855 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\Core\Inc\stm32f4xx_it.h_save
+2024-03-07 09:17:03,901 [INFO] CodeEngine:279 - Generated code: C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\Core\Inc\stm32f4xx_it.h
+2024-03-07 09:17:03,917 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\Core\Src\stm32f4xx_hal_msp.c_save
+2024-03-07 09:17:04,024 [INFO] CodeEngine:279 - Generated code: C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\Core\Src\stm32f4xx_hal_msp.c
+2024-03-07 09:17:04,029 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\MXTmpFiles\system.tmp_save
+2024-03-07 09:17:04,080 [INFO] CodeEngine:279 - Generated code: C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\MXTmpFiles\system.tmp
+2024-03-07 09:17:04,104 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-03-07 09:17:04,180 [INFO] CodeEngine:335 - Generated code: C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\Core\Inc\stm32f4xx_hal_conf.h
+2024-03-07 09:17:04,204 [WARN] IPConfigManager:3440 - IP not found : TIM
+2024-03-07 09:17:04,204 [WARN] CodeGenerator:3939 - IP not found : null
+2024-03-07 09:17:04,217 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\Core\Inc\main.h_save
+2024-03-07 09:17:04,288 [INFO] CodeEngine:279 - Generated code: C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\Core\Inc\main.h
+2024-03-07 09:17:04,300 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\Core\Src\main.c_save
+2024-03-07 09:17:04,401 [INFO] CodeEngine:279 - Generated code: C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\Core\Src\main.c
+2024-03-07 09:17:04,993 [INFO] ProjectBuilder:3076 - Time for Copy HAL[1] : 163mS.
+2024-03-07 09:17:04,995 [INFO] ProjectBuilder:4485 - Project Generator version: 4.2.0-B44
+2024-03-07 09:17:05,221 [INFO] ConfigFileManager:1495 - The Die is : DIE413
+2024-03-07 09:17:06,490 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 1495mS.
+2024-03-07 09:17:06,491 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 1mS.
+2024-03-07 09:17:06,495 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2024-03-07 09:21:05,932 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-07 09:21:11,595 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-07 09:21:16,462 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-07 09:21:27,789 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 377542672 Bytes (984612864)
+2024-03-07 09:21:27,895 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 403757072 Bytes (984612864)
+2024-03-07 09:21:28,087 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2024-03-07 09:21:28,087 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2024-03-07 09:21:28,088 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-03-07 09:21:28,088 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-03-07 09:21:28,088 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-03-07 09:21:28,088 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-03-07 09:21:28,090 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.14.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037\\db\
+2024-03-07 09:21:28,294 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\MXTmpFiles\license.tmp_save
+2024-03-07 09:21:28,364 [INFO] CodeEngine:279 - Generated code: C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\MXTmpFiles\license.tmp
+2024-03-07 09:21:28,376 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\MXTmpFiles\gpio.tmp_save
+2024-03-07 09:21:28,475 [INFO] CodeEngine:279 - Generated code: C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\MXTmpFiles\gpio.tmp
+2024-03-07 09:21:28,550 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\Core\Src\stm32f4xx_it.c_save
+2024-03-07 09:21:28,632 [INFO] CodeEngine:279 - Generated code: C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\Core\Src\stm32f4xx_it.c
+2024-03-07 09:21:28,637 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\Core\Inc\stm32f4xx_it.h_save
+2024-03-07 09:21:28,685 [INFO] CodeEngine:279 - Generated code: C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\Core\Inc\stm32f4xx_it.h
+2024-03-07 09:21:28,705 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\Core\Src\stm32f4xx_hal_msp.c_save
+2024-03-07 09:21:28,777 [INFO] CodeEngine:279 - Generated code: C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\Core\Src\stm32f4xx_hal_msp.c
+2024-03-07 09:21:28,781 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\MXTmpFiles\system.tmp_save
+2024-03-07 09:21:28,826 [INFO] CodeEngine:279 - Generated code: C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\MXTmpFiles\system.tmp
+2024-03-07 09:21:28,840 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-03-07 09:21:28,918 [INFO] CodeEngine:335 - Generated code: C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\Core\Inc\stm32f4xx_hal_conf.h
+2024-03-07 09:21:28,936 [WARN] IPConfigManager:3440 - IP not found : TIM
+2024-03-07 09:21:28,937 [WARN] CodeGenerator:3939 - IP not found : null
+2024-03-07 09:21:28,951 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\Core\Inc\main.h_save
+2024-03-07 09:21:29,010 [INFO] CodeEngine:279 - Generated code: C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\Core\Inc\main.h
+2024-03-07 09:21:29,021 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\Core\Src\main.c_save
+2024-03-07 09:21:29,113 [INFO] CodeEngine:279 - Generated code: C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\Core\Src\main.c
+2024-03-07 09:21:29,552 [INFO] ProjectBuilder:3076 - Time for Copy HAL[1] : 126mS.
+2024-03-07 09:21:29,555 [INFO] ProjectBuilder:4485 - Project Generator version: 4.2.0-B44
+2024-03-07 09:21:29,711 [INFO] ConfigFileManager:1495 - The Die is : DIE413
+2024-03-07 09:21:30,938 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 1384mS.
+2024-03-07 09:21:30,939 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2024-03-07 09:21:30,943 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2024-03-07 09:22:32,348 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,450x249,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-07 09:22:33,314 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-07 09:22:38,960 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 785461040 Bytes (979369984)
+2024-03-07 09:22:39,086 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 811675440 Bytes (979369984)
+2024-03-07 09:22:39,297 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2024-03-07 09:22:39,297 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2024-03-07 09:22:39,297 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-03-07 09:22:39,297 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-03-07 09:22:39,297 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-03-07 09:22:39,297 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-03-07 09:22:39,298 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.14.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037\\db\
+2024-03-07 09:22:39,476 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\MXTmpFiles\license.tmp_save
+2024-03-07 09:22:39,539 [INFO] CodeEngine:279 - Generated code: C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\MXTmpFiles\license.tmp
+2024-03-07 09:22:39,551 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\MXTmpFiles\gpio.tmp_save
+2024-03-07 09:22:39,621 [INFO] CodeEngine:279 - Generated code: C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\MXTmpFiles\gpio.tmp
+2024-03-07 09:22:39,693 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\Core\Src\stm32f4xx_it.c_save
+2024-03-07 09:22:39,789 [INFO] CodeEngine:279 - Generated code: C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\Core\Src\stm32f4xx_it.c
+2024-03-07 09:22:39,796 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\Core\Inc\stm32f4xx_it.h_save
+2024-03-07 09:22:39,857 [INFO] CodeEngine:279 - Generated code: C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\Core\Inc\stm32f4xx_it.h
+2024-03-07 09:22:39,873 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\Core\Src\stm32f4xx_hal_msp.c_save
+2024-03-07 09:22:39,971 [INFO] CodeEngine:279 - Generated code: C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\Core\Src\stm32f4xx_hal_msp.c
+2024-03-07 09:22:39,975 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\MXTmpFiles\system.tmp_save
+2024-03-07 09:22:40,019 [INFO] CodeEngine:279 - Generated code: C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\MXTmpFiles\system.tmp
+2024-03-07 09:22:40,034 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-03-07 09:22:40,115 [INFO] CodeEngine:335 - Generated code: C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\Core\Inc\stm32f4xx_hal_conf.h
+2024-03-07 09:22:40,135 [WARN] IPConfigManager:3440 - IP not found : TIM
+2024-03-07 09:22:40,135 [WARN] CodeGenerator:3939 - IP not found : null
+2024-03-07 09:22:40,149 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\Core\Inc\main.h_save
+2024-03-07 09:22:40,209 [INFO] CodeEngine:279 - Generated code: C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\Core\Inc\main.h
+2024-03-07 09:22:40,220 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\Core\Src\main.c_save
+2024-03-07 09:22:40,315 [INFO] CodeEngine:279 - Generated code: C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4\Core\Src\main.c
+2024-03-07 09:22:40,923 [INFO] ProjectBuilder:3076 - Time for Copy HAL[1] : 133mS.
+2024-03-07 09:22:40,926 [INFO] ProjectBuilder:4485 - Project Generator version: 4.2.0-B44
+2024-03-07 09:22:41,078 [INFO] ConfigFileManager:1495 - The Die is : DIE413
+2024-03-07 09:22:42,261 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 1335mS.
+2024-03-07 09:22:42,262 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 1mS.
+2024-03-07 09:22:42,265 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
