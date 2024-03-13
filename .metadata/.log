@@ -1181,3 +1181,139 @@ java.lang.Exception: Resource '/Lab4' does not exist.
 
 !ENTRY org.eclipse.cdt.core 1 0 2024-03-07 10:07:11.610
 !MESSAGE Indexed 'Lab4_2uzd' (19 sources, 81 headers) in 2.16 sec: 4,411 declarations; 17,770 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.009%)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2024-03-07 10:17:38.223
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2024-03-13 14:51:18.834
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 25 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2024-03-13 14:51:18.835
+!MESSAGE Existing sessions are:
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2024-03-13 14:51:18.838
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 25 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2024-03-13 14:51:18.839
+!MESSAGE Existing sessions are:
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2024-03-13 14:52:58.000
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 26 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2024-03-13 14:52:58.001
+!MESSAGE Existing sessions are:
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2024-03-13 14:52:58.004
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 26 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2024-03-13 14:52:58.004
+!MESSAGE Existing sessions are:
+
+!ENTRY org.eclipse.cdt.dsf 4 -1 2024-03-13 15:31:20.720
+!MESSAGE Uncaught exception in DSF executor thread
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.cdt.dsf.gdb.service.IGDBBackend.getId()" because "this.fMIBackend" is null
+	at org.eclipse.cdt.dsf.gdb.service.command.GDBControl.getId(GDBControl.java:293)
+	at org.eclipse.cdt.dsf.gdb.service.command.GDBControl_7_4.createComandControlContext(GDBControl_7_4.java:52)
+	at org.eclipse.cdt.dsf.gdb.service.command.GDBControl.doInitialize(GDBControl.java:275)
+	at org.eclipse.cdt.dsf.gdb.service.command.GDBControl$1.handleSuccess(GDBControl.java:264)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.handleCompleted(RequestMonitor.java:391)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor$2.run(RequestMonitor.java:317)
+	at org.eclipse.cdt.dsf.concurrent.ImmediateExecutor.execute(ImmediateExecutor.java:67)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.done(RequestMonitor.java:314)
+	at org.eclipse.cdt.dsf.service.AbstractDsfService.initialize(AbstractDsfService.java:102)
+	at org.eclipse.cdt.dsf.gdb.service.command.GDBControl.initialize(GDBControl.java:261)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence$5.execute(DSFServicesLaunchSequence.java:110)
+	at org.eclipse.cdt.dsf.concurrent.Sequence.executeStep(Sequence.java:475)
+	at org.eclipse.cdt.dsf.concurrent.Sequence$2.handleSuccess(Sequence.java:437)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.handleCompleted(RequestMonitor.java:391)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor$2.run(RequestMonitor.java:317)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2024-03-13 15:31:20.723
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitorWithProgress@2f1c0bb5): Status ERROR: org.eclipse.cdt.dsf code=0 Unhandled exception when executing Sequence com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence@6acae8d1, step #22 java.lang.NullPointerException: Cannot invoke "org.eclipse.cdt.dsf.gdb.service.IGDBBackend.getId()" because "this.fMIBackend" is null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf 4 0 2024-03-13 15:31:20.723
+!MESSAGE Unhandled exception when executing Sequence com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence@6acae8d1, step #22
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.cdt.dsf.gdb.service.IGDBBackend.getId()" because "this.fMIBackend" is null
+	at org.eclipse.cdt.dsf.gdb.service.command.GDBControl.getId(GDBControl.java:293)
+	at org.eclipse.cdt.dsf.gdb.service.command.GDBControl_7_4.createComandControlContext(GDBControl_7_4.java:52)
+	at org.eclipse.cdt.dsf.gdb.service.command.GDBControl.doInitialize(GDBControl.java:275)
+	at org.eclipse.cdt.dsf.gdb.service.command.GDBControl$1.handleSuccess(GDBControl.java:264)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.handleCompleted(RequestMonitor.java:391)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor$2.run(RequestMonitor.java:317)
+	at org.eclipse.cdt.dsf.concurrent.ImmediateExecutor.execute(ImmediateExecutor.java:67)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.done(RequestMonitor.java:314)
+	at org.eclipse.cdt.dsf.service.AbstractDsfService.initialize(AbstractDsfService.java:102)
+	at org.eclipse.cdt.dsf.gdb.service.command.GDBControl.initialize(GDBControl.java:261)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence$5.execute(DSFServicesLaunchSequence.java:110)
+	at org.eclipse.cdt.dsf.concurrent.Sequence.executeStep(Sequence.java:475)
+	at org.eclipse.cdt.dsf.concurrent.Sequence$2.handleSuccess(Sequence.java:437)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.handleCompleted(RequestMonitor.java:391)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor$2.run(RequestMonitor.java:317)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2024-03-13 15:31:20.725
+!MESSAGE Error in services launch sequence
+!STACK 1
+org.eclipse.core.runtime.CoreException: Unhandled exception when executing Sequence com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence@6acae8d1, step #22
+	at org.eclipse.cdt.dsf.concurrent.Sequence.abortExecution(Sequence.java:599)
+	at org.eclipse.cdt.dsf.concurrent.Sequence.executeStep(Sequence.java:485)
+	at org.eclipse.cdt.dsf.concurrent.Sequence$2.handleSuccess(Sequence.java:437)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.handleCompleted(RequestMonitor.java:391)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor$2.run(RequestMonitor.java:317)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.cdt.dsf.gdb.service.IGDBBackend.getId()" because "this.fMIBackend" is null
+	at org.eclipse.cdt.dsf.gdb.service.command.GDBControl.getId(GDBControl.java:293)
+	at org.eclipse.cdt.dsf.gdb.service.command.GDBControl_7_4.createComandControlContext(GDBControl_7_4.java:52)
+	at org.eclipse.cdt.dsf.gdb.service.command.GDBControl.doInitialize(GDBControl.java:275)
+	at org.eclipse.cdt.dsf.gdb.service.command.GDBControl$1.handleSuccess(GDBControl.java:264)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.handleCompleted(RequestMonitor.java:391)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor$2.run(RequestMonitor.java:317)
+	at org.eclipse.cdt.dsf.concurrent.ImmediateExecutor.execute(ImmediateExecutor.java:67)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.done(RequestMonitor.java:314)
+	at org.eclipse.cdt.dsf.service.AbstractDsfService.initialize(AbstractDsfService.java:102)
+	at org.eclipse.cdt.dsf.gdb.service.command.GDBControl.initialize(GDBControl.java:261)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence$5.execute(DSFServicesLaunchSequence.java:110)
+	at org.eclipse.cdt.dsf.concurrent.Sequence.executeStep(Sequence.java:475)
+	... 9 more
+!SUBENTRY 1 org.eclipse.cdt.dsf 4 0 2024-03-13 15:31:20.726
+!MESSAGE Unhandled exception when executing Sequence com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence@6acae8d1, step #22
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.cdt.dsf.gdb.service.IGDBBackend.getId()" because "this.fMIBackend" is null
+	at org.eclipse.cdt.dsf.gdb.service.command.GDBControl.getId(GDBControl.java:293)
+	at org.eclipse.cdt.dsf.gdb.service.command.GDBControl_7_4.createComandControlContext(GDBControl_7_4.java:52)
+	at org.eclipse.cdt.dsf.gdb.service.command.GDBControl.doInitialize(GDBControl.java:275)
+	at org.eclipse.cdt.dsf.gdb.service.command.GDBControl$1.handleSuccess(GDBControl.java:264)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.handleCompleted(RequestMonitor.java:391)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor$2.run(RequestMonitor.java:317)
+	at org.eclipse.cdt.dsf.concurrent.ImmediateExecutor.execute(ImmediateExecutor.java:67)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.done(RequestMonitor.java:314)
+	at org.eclipse.cdt.dsf.service.AbstractDsfService.initialize(AbstractDsfService.java:102)
+	at org.eclipse.cdt.dsf.gdb.service.command.GDBControl.initialize(GDBControl.java:261)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFServicesLaunchSequence$5.execute(DSFServicesLaunchSequence.java:110)
+	at org.eclipse.cdt.dsf.concurrent.Sequence.executeStep(Sequence.java:475)
+	at org.eclipse.cdt.dsf.concurrent.Sequence$2.handleSuccess(Sequence.java:437)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor.handleCompleted(RequestMonitor.java:391)
+	at org.eclipse.cdt.dsf.concurrent.RequestMonitor$2.run(RequestMonitor.java:317)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
