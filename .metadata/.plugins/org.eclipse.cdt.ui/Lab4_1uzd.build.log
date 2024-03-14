@@ -1,0 +1,16 @@
+09:30:10 **** Incremental Build of configuration Debug for project Lab4_1uzd ****
+make -j12 all 
+arm-none-eabi-gcc -o "Lab4_1uzd.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab4_1uzd\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab4_1uzd.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab4_1uzd.elf
+ 
+arm-none-eabi-size  Lab4_1uzd.elf 
+arm-none-eabi-objdump -h -S Lab4_1uzd.elf  > "Lab4_1uzd.list"
+   text	   data	    bss	    dec	    hex	filename
+  12012	     20	   1716	  13748	   35b4	Lab4_1uzd.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab4_1uzd.list
+ 
+
+09:30:11 Build Finished. 0 errors, 0 warnings. (took 610ms)
+
