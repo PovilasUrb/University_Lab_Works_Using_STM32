@@ -1432,3 +1432,80 @@ java.lang.NullPointerException: Cannot invoke "javax.swing.JTextField.getText()"
 2024-03-14 10:11:55,772 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 1591mS.
 2024-03-14 10:11:55,772 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
 2024-03-14 10:11:55,782 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2024-03-14 10:39:17,040 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-14 10:39:17,865 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 629648232 Bytes (1073741824)
+2024-03-14 10:39:19,239 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 660583272 Bytes (1073741824)
+2024-03-14 10:39:21,166 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 712485736 Bytes (1073741824)
+2024-03-14 10:39:21,368 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SPI
+2024-03-14 10:39:21,368 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SPI
+2024-03-14 10:39:21,368 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2024-03-14 10:39:21,368 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-03-14 10:39:21,368 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-03-14 10:39:21,368 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-03-14 10:39:21,368 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-03-14 10:39:21,369 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.14.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037\\db\
+2024-03-14 10:39:21,583 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab5\MXTmpFiles\license.tmp_save
+2024-03-14 10:39:21,649 [INFO] CodeEngine:279 - Generated code: C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab5\MXTmpFiles\license.tmp
+2024-03-14 10:39:21,677 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab5\MXTmpFiles\gpio.tmp_save
+2024-03-14 10:39:21,746 [INFO] CodeEngine:279 - Generated code: C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab5\MXTmpFiles\gpio.tmp
+2024-03-14 10:39:21,851 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab5\Core\Src\stm32f4xx_it.c_save
+2024-03-14 10:39:21,965 [INFO] CodeEngine:279 - Generated code: C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab5\Core\Src\stm32f4xx_it.c
+2024-03-14 10:39:21,975 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab5\Core\Inc\stm32f4xx_it.h_save
+2024-03-14 10:39:22,032 [INFO] CodeEngine:279 - Generated code: C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab5\Core\Inc\stm32f4xx_it.h
+2024-03-14 10:39:22,053 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab5\Core\Src\stm32f4xx_hal_msp.c_save
+2024-03-14 10:39:22,129 [INFO] CodeEngine:279 - Generated code: C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab5\Core\Src\stm32f4xx_hal_msp.c
+2024-03-14 10:39:22,133 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab5\MXTmpFiles\system.tmp_save
+2024-03-14 10:39:22,183 [INFO] CodeEngine:279 - Generated code: C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab5\MXTmpFiles\system.tmp
+2024-03-14 10:39:22,207 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab5\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-03-14 10:39:22,293 [INFO] CodeEngine:335 - Generated code: C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab5\Core\Inc\stm32f4xx_hal_conf.h
+2024-03-14 10:39:22,314 [WARN] IPConfigManager:3440 - IP not found : TIM
+2024-03-14 10:39:22,314 [WARN] CodeGenerator:3939 - IP not found : null
+2024-03-14 10:39:22,337 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab5\Core\Inc\main.h_save
+2024-03-14 10:39:22,422 [INFO] CodeEngine:279 - Generated code: C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab5\Core\Inc\main.h
+2024-03-14 10:39:22,442 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab5\Core\Src\main.c_save
+2024-03-14 10:39:22,550 [INFO] CodeEngine:279 - Generated code: C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab5\Core\Src\main.c
+2024-03-14 10:39:23,212 [INFO] ProjectBuilder:3076 - Time for Copy HAL[1] : 214mS.
+2024-03-14 10:39:23,215 [INFO] ProjectBuilder:4485 - Project Generator version: 4.2.0-B44
+2024-03-14 10:39:23,380 [INFO] ConfigFileManager:1495 - The Die is : DIE413
+2024-03-14 10:39:24,430 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 1216mS.
+2024-03-14 10:39:24,430 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2024-03-14 10:39:24,433 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2024-03-14 10:39:50,671 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-14 10:39:54,275 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-03-14 10:39:57,311 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 388351040 Bytes (1073741824)
+2024-03-14 10:39:58,781 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 378256864 Bytes (1073741824)
+2024-03-14 10:39:58,941 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 405519840 Bytes (1073741824)
+2024-03-14 10:39:59,131 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SPI
+2024-03-14 10:39:59,131 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SPI
+2024-03-14 10:39:59,131 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2024-03-14 10:39:59,131 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-03-14 10:39:59,131 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-03-14 10:39:59,131 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-03-14 10:39:59,131 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-03-14 10:39:59,132 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.14.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.10.0.202311202037\\db\
+2024-03-14 10:39:59,308 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab5\MXTmpFiles\license.tmp_save
+2024-03-14 10:39:59,391 [INFO] CodeEngine:279 - Generated code: C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab5\MXTmpFiles\license.tmp
+2024-03-14 10:39:59,407 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab5\MXTmpFiles\gpio.tmp_save
+2024-03-14 10:39:59,486 [INFO] CodeEngine:279 - Generated code: C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab5\MXTmpFiles\gpio.tmp
+2024-03-14 10:39:59,565 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab5\Core\Src\stm32f4xx_it.c_save
+2024-03-14 10:39:59,631 [INFO] CodeEngine:279 - Generated code: C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab5\Core\Src\stm32f4xx_it.c
+2024-03-14 10:39:59,635 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab5\Core\Inc\stm32f4xx_it.h_save
+2024-03-14 10:39:59,680 [INFO] CodeEngine:279 - Generated code: C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab5\Core\Inc\stm32f4xx_it.h
+2024-03-14 10:39:59,696 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab5\Core\Src\stm32f4xx_hal_msp.c_save
+2024-03-14 10:39:59,767 [INFO] CodeEngine:279 - Generated code: C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab5\Core\Src\stm32f4xx_hal_msp.c
+2024-03-14 10:39:59,770 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab5\MXTmpFiles\system.tmp_save
+2024-03-14 10:39:59,818 [INFO] CodeEngine:279 - Generated code: C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab5\MXTmpFiles\system.tmp
+2024-03-14 10:39:59,836 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab5\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-03-14 10:39:59,910 [INFO] CodeEngine:335 - Generated code: C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab5\Core\Inc\stm32f4xx_hal_conf.h
+2024-03-14 10:39:59,929 [WARN] IPConfigManager:3440 - IP not found : TIM
+2024-03-14 10:39:59,929 [WARN] CodeGenerator:3939 - IP not found : null
+2024-03-14 10:39:59,941 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab5\Core\Inc\main.h_save
+2024-03-14 10:39:59,998 [INFO] CodeEngine:279 - Generated code: C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab5\Core\Inc\main.h
+2024-03-14 10:40:00,008 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab5\Core\Src\main.c_save
+2024-03-14 10:40:00,103 [INFO] CodeEngine:279 - Generated code: C:\Users\Povilas\Documents\STM32CubeIDE\workspace_1.14.1\Lab5\Core\Src\main.c
+2024-03-14 10:40:00,717 [INFO] ProjectBuilder:3076 - Time for Copy HAL[1] : 213mS.
+2024-03-14 10:40:00,721 [INFO] ProjectBuilder:4485 - Project Generator version: 4.2.0-B44
+2024-03-14 10:40:00,891 [INFO] ConfigFileManager:1495 - The Die is : DIE413
+2024-03-14 10:40:01,905 [INFO] ProjectBuilder:4747 - Time for Generating toolchain IDE Files: 1184mS.
+2024-03-14 10:40:01,906 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.
+2024-03-14 10:40:01,910 [INFO] ProjectBuilder:2947 - Time for Copy CMSIS : 0mS.

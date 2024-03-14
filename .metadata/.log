@@ -1580,3 +1580,18 @@ java.io.FileNotFoundException: C:\Users\Povilas\Documents\STM32CubeIDE\workspace
 
 !ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2024-03-14 10:24:52.769
 !MESSAGE Existing sessions are:
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-03-14 11:11:01.415
+!MESSAGE Indexed 'Lab6' (19 sources, 81 headers) in 1.47 sec: 4,411 declarations; 17,770 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.009%)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2024-03-14 11:27:44.330
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 48 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2024-03-14 11:27:44.330
+!MESSAGE Existing sessions are:
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2024-03-14 11:27:44.333
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 48 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2024-03-14 11:27:44.333
+!MESSAGE Existing sessions are:
