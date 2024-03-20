@@ -109,11 +109,14 @@ int main(void)
 			}
 	  }else if(uzdNr == 2){
 		  if(HAL_I2C_Slave_Receive(&hi2c1, rxBuffer, 3, 10) == HAL_OK) {
-			  HAL_GPIO_WritePin(GPIOD, GPIO_PIN_12, (rxBuffer[0] & 0x01) ? GPIO_PIN_SET : GPIO_PIN_RESET);
-			  HAL_GPIO_WritePin(GPIOD, GPIO_PIN_13, (rxBuffer[0] & 0x02) ? GPIO_PIN_SET : GPIO_PIN_RESET);
-			  HAL_GPIO_WritePin(GPIOD, GPIO_PIN_14, (rxBuffer[0] & 0x04) ? GPIO_PIN_SET : GPIO_PIN_RESET);
-			  HAL_GPIO_WritePin(GPIOD, GPIO_PIN_15, (rxBuffer[0] & 0x08) ? GPIO_PIN_SET : GPIO_PIN_RESET);
+		      HAL_GPIO_WritePin(GPIOD, GPIO_PIN_12, (rxBuffer[0] & 0x01) ? GPIO_PIN_SET : GPIO_PIN_RESET);
+		      HAL_GPIO_WritePin(GPIOD, GPIO_PIN_13, (rxBuffer[0] & 0x02) ? GPIO_PIN_SET : GPIO_PIN_RESET);
+
+		      HAL_GPIO_WritePin(GPIOD, GPIO_PIN_14, (rxBuffer[1] & 0x01) ? GPIO_PIN_SET : GPIO_PIN_RESET);
+
+		      HAL_GPIO_WritePin(GPIOD, GPIO_PIN_15, (rxBuffer[2] & 0x01) ? GPIO_PIN_SET : GPIO_PIN_RESET);
 		  }
+
 	  }
     /* USER CODE END WHILE */
 
