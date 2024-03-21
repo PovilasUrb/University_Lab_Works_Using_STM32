@@ -67,6 +67,8 @@ void SendDataToControlLEDs(uint8_t led12, uint8_t led3, uint8_t led4) {
     txBuffer[1] = led3;
     txBuffer[2] = led4;
 
+
+
     if (HAL_I2C_Master_Transmit(&hi2c1, slaveAddr, txBuffer, 3, HAL_MAX_DELAY) != HAL_OK) {
 
     }
