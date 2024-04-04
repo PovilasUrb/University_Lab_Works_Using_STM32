@@ -107,8 +107,7 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  while (1)
-  {
+  while (1) {
 	 if(uzdNr == 1){
 		for(int i = 0; i < sizeof(txData); i++){
 			if(HAL_UART_Transmit(&huart3, &txData[i], 1, 1000) == HAL_OK){

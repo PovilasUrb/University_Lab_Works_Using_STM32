@@ -57,12 +57,12 @@ static void MX_I2C1_Init(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 uint8_t txBuffer[3] = {0x01, 0x02, 0x03};
-uint16_t slaveAddr = 0xfa;
+uint16_t slaveAddr = 0xb;
 
 void SendDataToControlLEDs(uint8_t led12, uint8_t led3, uint8_t led4) {
     uint8_t txBuffer[3];
     uint16_t slaveAddr = 0xfa;
-
+    uint8_t tx = 0xfa;
     txBuffer[0] = led12;
     txBuffer[1] = led3;
     txBuffer[2] = led4;
